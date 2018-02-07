@@ -1,0 +1,91 @@
+===== C:\EnergyPlusV8-4-0/RunEplus (Run EnergyPlus) C:\Users\Expresso Logic\Documents\ibpsa_replay_control/IBPSAOffice\Building USA_IL_Chicago-OHare.Intl.AP.725300_TMY3 ===== Start =====
+The system cannot find the file specified.
+        1 file(s) copied.
+ExpandObjects Started.
+No expanded file generated.
+ExpandObjects Finished. Time:     0.062
+        1 file(s) copied.
+        1 file(s) copied.
+Running C:\EnergyPlusV8-4-0\EnergyPlus.exe
+Input File  : C:\Users\Expresso Logic\Documents\ibpsa_replay_control/IBPSAOffice\Building.idf
+Output Files: 
+IDD file    : C:\EnergyPlusV8-4-0\Energy+.idd
+Weather File: C:\EnergyPlusV8-4-0\WeatherData\USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw
+Begin EnergyPlus processing . . . 
+EnergyPlus Starting
+EnergyPlus, Version 8.4.0-09f5359d8a, YMD=2018.02.05 15:08
+Processing Data Dictionary
+Processing Input File
+Initializing Response Factors
+Calculating CTFs for "MASS NON-RES EXT WALL", Construction # 1
+Calculating CTFs for "IEAD NON-RES ROOF", Construction # 2
+Calculating CTFs for "EXT-SLAB", Construction # 3
+Calculating CTFs for "INT-WALLS", Construction # 4
+Calculating CTFs for "INT-FLOOR-TOPSIDE", Construction # 5
+Calculating CTFs for "UNDERGROUND WALL NON-RES", Construction # 7
+Calculating CTFs for "DROPCEILING", Construction # 9
+Calculating CTFs for "INTERIORFURNISHINGS", Construction # 11
+Initializing Window Optical Properties
+Initializing Solar Calculations
+Allocate Solar Module Arrays
+Initializing Zone Report Variables
+Initializing Surface (Shading) Report Variables
+Determining Shadowing Combinations
+Computing Window Shade Absorption Factors
+Proceeding with Initializing Solar Calculations
+Initializing Surfaces
+Initializing Outdoor environment for Surfaces
+Setting up Surface Reporting Variables
+Initializing Temperature and Flux Histories
+Initializing Window Shading
+Computing Interior Absorption Factors
+Computing Interior Diffuse Solar Absorption Factors
+Computing Interior Diffuse Solar Exchange through Interzone Windows
+Initializing Solar Heat Gains
+Initializing Internal Heat Gains
+Initializing Interior Solar Distribution
+Initializing Interior Convection Coefficients
+Gathering Information for Predefined Reporting
+Completed Initializing Surface Heat Balance
+Calculate Outside Surface Heat Balance
+Calculate Inside Surface Heat Balance
+Calculate Air Heat Balance
+Initializing HVAC
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #1 CHICAGO ANN HTG 99.6% CONDNS DB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #2 CHICAGO ANN CLG .4% CONDNS WB=>MDB
+Calculating System sizing
+...for Sizing Period: #1 CHICAGO ANN HTG 99.6% CONDNS DB
+Calculating System sizing
+...for Sizing Period: #2 CHICAGO ANN CLG .4% CONDNS WB=>MDB
+Initializing Simulation
+Reporting Surfaces
+Beginning Primary Simulation
+Initializing New Environment Parameters
+Warming up {1}
+Instantiating Building Controls Virtual Test Bed
+ExternalInterface initializes.
+Number of outputs in ExternalInterface = 14
+Number of inputs  in ExternalInterface = 3
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 07/07 for Chicago Ohare Intl Ap IL USA TMY3 WMO#=725300
+ExternalInterface starts first data exchange.
+**FATAL:Error in ExternalInterface: Check EnergyPlus *.err file.
+EnergyPlus Run Time=04hr 46min  0.82sec

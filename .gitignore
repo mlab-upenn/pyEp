@@ -1,0 +1,17 @@
+*.end
+*.audit
+*.bnd
+*.eio
+*.err
+*.eso
+*.mtd
+*.mtr
+*.rvaudit
+*.shd
+*.sql
+*.svg
+*.pyc
+*.idd
+*.ini
+*.dbg
+*.pypirc
