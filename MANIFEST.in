@@ -1,0 +1,4 @@
+recursive-include pyEp/example_buildings *.idf *.cfg *.epw
+recursive-include pyEp/bcvtb *
+
+recursive-include EnergyPlus-OPC/ePlusBuildings *.idf *.cfg *.epw

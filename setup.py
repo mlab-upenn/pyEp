@@ -11,7 +11,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
 	name='pyEp',
-	version='1.0.0',
+	version='0.9.3',
 	description='pyEp: EnergyPlus cosimulation in Python',
 	long_description=long_description,
 	url='',
@@ -19,12 +19,14 @@ setup(
 	author_email='dnong@sas.upenn.edu',
 	license='MIT',
 	classifiers=[
-	'Development Status :: 5 - Production/Stable',
+	'Development Status :: 4 - Beta',
 	'Intended Audience :: Science/Research',
 	'License :: OSI Approved :: MIT License',
 	'Programming Language :: Python :: 2.7',
 	'Programming Language :: Python :: 3.5'
 	],
 	keywords='EnergyPlus simulation',
-	packages=['pyEp'],
+	packages=['pyEp','EnergyPlus-OPC'],
+	package_dir={'pyEp': 'pyEp', 'EnergyPlus-OPC': 'EnergyPlus-OPC'},
+	include_package_data=True
 	)
