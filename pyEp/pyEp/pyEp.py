@@ -2,7 +2,7 @@ import socket
 import sys
 import subprocess
 import os
-from .pyEpError import *
+from pyEpError import *
 
 class ep_process:
 

@@ -3,14 +3,9 @@ import os
 import matplotlib.pyplot as plt
 import socket
 
-if os.name is 'nt':
-	path_divider = "\\"
-else:
-	path_divider = '/'
-
 pyEp.set_eplus_dir("C:\\EnergyPlusV8-1-0")
 
-path_to_buildings = os.getcwd() + path_divider + 'example_buildings'
+path_to_buildings = os.path.join(os.getcwd(),'pyEp', 'example_buildings')
 
 builder = pyEp.socket_builder(path_to_buildings)
 configs = builder.build() # Configs is [port, building_folder_path, idf]
