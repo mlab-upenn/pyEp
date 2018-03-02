@@ -5,7 +5,6 @@
 
 
 
-
 Welcome to pyEp's documentation!
 ================================
 
@@ -39,17 +38,11 @@ The EnergyPlus-OPC bridge uses the pyEp core module to run a simulation across a
 .. _OpenOPC: https://openopc.sourceforge.net
 
 
+
+Contents
+--------
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
 
    Home <self>
    quickstart
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
