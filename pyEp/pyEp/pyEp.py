@@ -171,7 +171,7 @@ class ep_process:
 		return output
 
 def set_bcvtb_home():
-	path = os.path.dirname(os.path.abspath(__file__)) + "\\bcvtb"
+	path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bcvtb")
 	os.environ['BCVTB_HOME'] = path # visible in this process + all children
 
 def set_eplus_dir(path):
