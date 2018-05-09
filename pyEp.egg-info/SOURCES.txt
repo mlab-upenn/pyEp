@@ -3,6 +3,7 @@ README.rst
 setup.cfg
 setup.py
 pyEp/SPtMasterTable_587017_2012_amy.epw
+pyEp/__init__.py
 pyEp/example.py
 pyEp.egg-info/PKG-INFO
 pyEp.egg-info/SOURCES.txt
