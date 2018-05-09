@@ -1,12 +1,11 @@
 Metadata-Version: 1.1
 Name: pyEp
-Version: 0.9.4
+Version: 0.9.4.1
 Summary: pyEp: EnergyPlus cosimulation in Python
 Home-page: UNKNOWN
 Author: Derek Nong
 Author-email: dnong@sas.upenn.edu
 License: MIT
-Description-Content-Type: UNKNOWN
 Description: *******************
         pyEp
         *******************

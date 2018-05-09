@@ -11,7 +11,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
 	name='pyEp',
-	version='0.9.4',
+	version='0.9.4.1',
 	description='pyEp: EnergyPlus cosimulation in Python',
 	long_description=long_description,
 	url='',
