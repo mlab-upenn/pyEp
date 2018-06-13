@@ -1,7 +1,6 @@
 import pyEp
 import os
 import matplotlib.pyplot as plt
-import socket
 
 pyEp.set_eplus_dir("C:\\EnergyPlusV8-1-0")
 
@@ -18,14 +17,14 @@ outputs = []
 
 EPTimeStep = 12
 SimDays = 1
-kStep = 1
-MAXSTEPS = int(SimDays*24*EPTimeStep)
+kStep = 0
+MAXSTEPS = int(SimDays*24*EPTimeStep) + 1 #289 Iterations, 288 for 1 day + 1
 deltaT = (60/EPTimeStep)*60;
 
 print("Running Cosimulation with Total Steps " + str(MAXSTEPS))
 
 while kStep < MAXSTEPS:
-		
+		count = count + 1
 		time = (kStep-1) * deltaT
 		
 		dayTime = time % 86400
@@ -64,6 +63,7 @@ while kStep < MAXSTEPS:
 
 		kStep = kStep + 1
 
+print("Iterations: " + str(count))
 ep.close()
 plt.plot([output[0] for output in outputs])
 plt.show()

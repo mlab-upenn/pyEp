@@ -25,6 +25,7 @@ pyEp/pyEp/pyEpError.py
 pyEp/pyEp/socket_builder.py
 pyEp/pyEp/bcvtb/lib/xml/build.xml
 pyEp/pyEp/bcvtb/lib/xml/variables.dtd
+pyEp/pyEp/bcvtb/lib/xml/build/jar/DTDValidator.jar
 pyEp/pyEp/bcvtb/lib/xml/javadoc/DTDValidator.html
 pyEp/pyEp/bcvtb/lib/xml/javadoc/allclasses-frame.html
 pyEp/pyEp/bcvtb/lib/xml/javadoc/allclasses-noframe.html

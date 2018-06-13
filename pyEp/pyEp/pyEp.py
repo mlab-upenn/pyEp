@@ -2,7 +2,7 @@ import socket
 import sys
 import subprocess
 import os
-from pyEpError import *
+from .pyEpError import *
 
 class ep_process:
 
@@ -28,7 +28,7 @@ class ep_process:
 		if eplus_path is None:
 			global eplus_dir
 			if eplus_dir is None:
-				raise pyEpError.MissingEpPathError
+				raise MissingEpPathError
 			eplus_path = eplus_dir
 
 		if not eplus_path.endswith("/time"):
@@ -66,6 +66,7 @@ class ep_process:
 	def close(self):
 		print("Closing E+")
 		self.write("2 1\n")
+		data = self.read() # Read last bit of data, ignore it
 		self.remote.shutdown(socket.SHUT_RDWR)
 		self.remote.close()
 
@@ -81,7 +82,7 @@ class ep_process:
 		
 		except socket.error:	
 			print("Socket Error")
-			raise pyEpError.EpReadError
+			raise EpReadError
 
 		return data
 
@@ -90,7 +91,7 @@ class ep_process:
 			packet = packet.encode('utf-8')
 			self.remote.send(packet)
 		except socket.error as err:
-			raise pyEpError.EpWriteError
+			raise EpWriteError
 
 	#Takes in a packet from ep_process.read() and returns a list of lists corresponding to the real, int, and boolean values
 	#Returns an empty list if there are no more outputs, or if an error occured
@@ -121,7 +122,7 @@ class ep_process:
 				}
 				print(switch.get(comp_values[1]))
 		else:
-			raise pyEpError.VersionError
+			raise VersionError
 		return output
 
 
@@ -157,7 +158,7 @@ class ep_process:
 				}
 				print(switch.get(comp_values[1]))
 		else:
-			raise pyEpError.VersionError
+			raise VersionError
 		return output
 
 	#Encodes all setpoints as reals to input to energyplus

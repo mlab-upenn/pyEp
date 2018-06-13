@@ -9,8 +9,8 @@ class VersionError(pyEpError):
 	def __init__(self, message=None):
 		if message is None:
 			message = "Incorrect Version of EnergyPlus communications protocol. Make sure your version of EnergyPlus supports version 2"
-		super(VersionError, self).__init__(str(version))
-		self.version = version
+		super(VersionError, self).__init__(str(message))
+		self.message = message
 
 class EpWriteError(pyEpError):
 	""" Error thrown when appempting to write to a closed E+ instance """
