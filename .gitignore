@@ -15,5 +15,4 @@
 *.ini
 *.dbg
 *.pypirc
-build/
 dist/
