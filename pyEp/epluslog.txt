@@ -4,16 +4,16 @@
         1 file(s) copied.
 ExpandObjects Started.
 No expanded file generated.
-ExpandObjects Finished. Time:     0.062
+ExpandObjects Finished. Time:     0.047
         1 file(s) copied.
 Running C:\EnergyPlusV8-1-0\EnergyPlus.exe
 Input File  : C:\Users\Derek\Documents\Github\pyEp\pyEp\pyEp\example_buildings/LargeOffice\LargeOfficeFUN.idf
-Output Files: 
+Output Files: Output\
 IDD file    : C:\EnergyPlusV8-1-0\Energy+.idd
 Weather File: C:\EnergyPlusV8-1-0\WeatherData\SPtMasterTable_587017_2012_amy.epw
 Begin EnergyPlus processing . . . 
  EnergyPlus Starting
- EnergyPlus-Windows-64 8.1.0.009, YMD=2018.06.13 12:52
+ EnergyPlus-Windows-64 8.1.0.009, YMD=2018.07.30 17:21
  Processing Data Dictionary
  Processing Input File
  Initializing Response Factors
@@ -89,7 +89,7 @@ Begin EnergyPlus processing . . .
  Starting Simulation at 07/01 for 587017 587017 587017 TMY2 WMO#=587017
  ExternalInterface starts first data exchange.
  Writing final SQL reports
- EnergyPlus Run Time=00hr 00min  4.43sec
+ EnergyPlus Run Time=00hr 00min  4.24sec
  ReadVarsESO program starting.
  ReadVars Run Time=00hr 00min  0.06sec
  ReadVarsESO program completed successfully.
@@ -99,18 +99,5 @@ Begin EnergyPlus processing . . .
  ReadVarsESO program terminated.
   Started HVAC Diagram
   Complete
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
-        1 file(s) moved.
 Removing extra files . . .
 ===== C:\EnergyPlusV8-1-0//RunEplus C:\Users\Derek\Documents\Github\pyEp\pyEp\pyEp\example_buildings/LargeOffice\LargeOfficeFUN ===== Complete =====
